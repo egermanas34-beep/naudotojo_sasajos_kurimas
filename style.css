@@ -65,3 +65,31 @@ section a {
 section a:hover {
     color: #9377d4;
 }
+.skills-container{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.skill {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.skill img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+#igudziai
+{
+    max-height: 300px;
+}
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
