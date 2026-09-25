@@ -95,7 +95,20 @@ section a:hover {
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.221);
 }
-
+#issilavinimas table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#issilavinimas th,
+#issilavinimas td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+#issilavinimas tbody tr:hover {
+    background-color: #9377d4;
+    color: #fff;
+}
 @media (max-width: 768px) {
     .skills-container {
         grid-template-columns: repeat(2, 1fr);
