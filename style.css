@@ -98,6 +98,7 @@ section a:hover {
 #issilavinimas table {
     width: 100%;
     border-collapse: collapse;
+    background-color: #9377d4;
 }
 #issilavinimas th,
 #issilavinimas td {
@@ -106,8 +107,13 @@ section a:hover {
     text-align: left;
 }
 #issilavinimas tbody tr:hover {
-    background-color: #9377d4;
     color: #fff;
+    transition: 0.5s;
+    background-color: #401370;
+}
+.table-container {
+    overflow-x: auto;
+    border-radius: 10px;
 }
 @media (max-width: 768px) {
     .skills-container {
