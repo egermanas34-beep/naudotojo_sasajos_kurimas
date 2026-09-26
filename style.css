@@ -147,6 +147,10 @@ section a:hover {
 }
 .contact:hover {
     transform: translateY(-5px);
+
+}
+#kontaktai a:hover {
+    color: #401370;
 }
 footer {
    background-color: rgba(147, 119, 212, 0.3);
